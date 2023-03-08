@@ -1,6 +1,6 @@
 {
-  "name": "aptos",
-  "description": "Aptos SDK",
+  "name": "esc",
+  "description": "The sdk of EquityShareChain derived from Aptos SDK",
   "license": "Apache-2.0",
   "engines": {
     "node": ">=11.0.0"
@@ -34,17 +34,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aptos-labs/aptos-core.git"
+    "url": "https://github.com/PeopleEquity/sdk-typescript.git"
   },
-  "homepage": "https://github.com/aptos-labs/aptos-core",
+  "homepage": "https://github.com/PeopleEquity/sdk-typescript",
   "bugs": {
-    "url": "https://github.com/aptos-labs/aptos-core/issues"
+    "url": "https://github.com/PeopleEquity/sdk-typescript/issues"
   },
-  "author": "aptoslabs.com",
+  "author": "stevekeol",
   "keywords": [
-    "Aptos",
-    "Aptos Labs",
-    "Move"
+    "Blockchain",
+    "EquityShareChain",
+    "SDK"
   ],
   "dependencies": {
     "@noble/hashes": "1.1.3",
@@ -81,5 +81,5 @@
     "typedoc": "^0.23.20",
     "typescript": "4.8.2"
   },
-  "version": "1.6.0"
+  "version": "1.0.1"
 }
